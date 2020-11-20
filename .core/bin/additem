@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ $# == 0 ]; then
+	echo "You did not chose an item to pick up"
+elif [ $# -gt 1 ]; then
+	echo "You can only pick up one item at a time"
+elif [[ $PWD == *"chest" ]]; then
+ 	echo "; $1" >> /home/$USER/LARK-Project/game/inventory	
+	rm $1
+else
+	echo "There is nothing to pick up"
+fi

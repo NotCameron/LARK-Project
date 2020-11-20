@@ -1,0 +1,1 @@
+This directory and all sub-directories are solely for development and game operation. Any modification can break the game. Proceed at your own risk!

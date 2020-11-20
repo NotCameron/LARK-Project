@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export wepDam=%[RANDOM%6+1] #damages within a range from 1 to defined number (e.g. 6)
+#export wepDam=6 #damages with a flat number
+export wepName=fist
