@@ -1,0 +1,18 @@
+#!/bin/bash
+
+export weaponName=sword
+export armorName=armor_template
+
+for weaponName in $HOME/LARK-Project/.core/modules/weapons*; do 
+ source $weaponName
+done
+
+# source $armorName #2>/dev/null
+#done
+
+HP=10
+HPmax=10
+armorValue=$armorRate
+echo $armorValue
+weaponDamage=$wepDam
+echo $weaponValue
