@@ -4,7 +4,9 @@ if [ $# == 0 ]; then
 	echo "You did not chose an item to pick up"
 elif [ $# -gt 1 ]; then
 	echo "You can only pick up one item at a time"
-elif [[ $PWD == *"chest" ]]; then
+elif [[ $PWD == *"chest" && $1 == $(ls -a | grep $1) ]]; then
+
+	truncate -s -1 /home/$USER/LARK-Project/game/inventory
  	echo "; $1" >> /home/$USER/LARK-Project/game/inventory	
 	rm $1
 else
