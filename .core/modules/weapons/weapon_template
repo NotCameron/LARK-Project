@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export wepDam=%[RANDOM%6+1] #damages within a range from min (1) to defined number max (6)
+wepDam=$[RANDOM%6+1]  #damages within a range from min (1) to defined number max (6)
 #export wepDam=6 #damages with a flat number
-export wepName='fist' #weapon name
-export weaponDesc='' #weapon's description
+wepName='fist' #weapon name
+weaponDesc='' #weapon's description\

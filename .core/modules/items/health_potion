@@ -1,0 +1,4 @@
+#!/bin/bash
+#health potion
+. /home/$USER/.core/playerStats
+$HP=$HPmax

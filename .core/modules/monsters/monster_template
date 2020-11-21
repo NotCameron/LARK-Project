@@ -1,25 +1,7 @@
 #!/bin/bash
 #Monster Template
 
-export monstHP=10 #monster's hit points
-export monstDam=1 #monster's damage
-export monstName='' #monster's name
-export monstDesc='' #monster's description
-
-echo "A $monstName appears!"
-echo $monstDesc
-
-while [ monstHP -gt 0 ]
- do
-  echo "What will you do? \na) attack \nb) run"
-  read action
-	
-  case action in
-	 a | A)
-	  echo 'temporary thingy'
-	  ;;
-	 b | B)
-	  echo "You quickly flee from the $monstName!"
-	  break
-	  ;;
-  esac
+monstHP=10 #monster's hit points
+monstDam=1 #monster's damage
+monstName='' #monster's name
+monstDesc='' #monster's description
