@@ -1,1 +1,6 @@
-This will be the armor templae
+#!/bin/bash
+#This is the armor template
+
+export armorRate=1 #armor rating
+export armorName='' #armor name
+export armorDesc='' #armor description
