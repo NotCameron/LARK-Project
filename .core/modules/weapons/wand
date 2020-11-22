@@ -1,0 +1,6 @@
+#!/bin/bash
+
+wepDam=$[RANDOM%15+25]  #damages within a range from min (1) to defined number max (6)
+#export wepDam=6 #damages with a flat number
+wepName='Ultra staff' #weapon name
+weaponDesc='The staff of a wantering mage, shouting tales of ultra lord' #weapon's description\
