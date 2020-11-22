@@ -36,6 +36,7 @@ while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
  read action
  case $action in
   a|A)
+   source ~/LARK-Project/.core/modules/weapons/$wepName 2>/dev/null
    echo "You strike the monster with your $wepName for $wepDam damage!"
    monstHP=$(($monstHP - $wepDam))
    if [ $monstHP -gt 0 ]; then
