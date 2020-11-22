@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#export wepDam=2 #damages with a flat number
+wepName='fist' #weapon name
+weaponDesc='Your own hand.' #weapon's description
