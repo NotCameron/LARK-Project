@@ -3,13 +3,13 @@
 monstName=$1
 echo $#
 
-if [[ $1 != $(ls $PWD | grep -o $monstName) ]]; then
+if [[ $1 != $(ls $PWD | grep -o $monstName 2>/dev/null) ]]; then
  echo "You can't fight that!"
  exit
 elif [ $# -lt 1 ]; then
  echo "You can't fight nothing..."
  exit
-elif [ $# -gt 1]; then
+elif [ $# -gt 1 ]; then
  echo "You can only fight one thing at a time!"
  exit
 fi

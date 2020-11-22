@@ -1,3 +1,4 @@
 #!/bin/bash
 
+echo "Your current inventory:"
 cat /home/$USER/LARK-Project/game/inventory
