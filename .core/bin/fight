@@ -73,8 +73,9 @@ elif [ $monstHP -le 0 ]; then
     cd ..
     rm -r chest  
    fi
-  if [[ $monstUnlock ]]; then
-    cp ~/LARK-Project/.core/modules/paths/$monstUnlock $PWD/$monstUnlock
+  if [[ $monstScroll != '' ]]; then
+    touch Scroll
+    echo $monstScroll > Scroll
   fi
   rm $monstFileName 2>/dev/null
 fi
