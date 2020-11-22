@@ -3,7 +3,7 @@
 monstName=$1
 echo $#
 
-if [[ $1 != $(ls $PWD | grep -o $monstName) ]]; then
+if [[ $1 != $(ls $PWD | grep -o $monstName 2>/dev/null) ]]; then
  echo "You can't fight that!"
  exit
 elif [ $# -lt 1 ]; then
