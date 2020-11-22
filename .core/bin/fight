@@ -1,8 +1,8 @@
 #!/bin/bash
 
-monstName=$1
+monstFileName=$1
 
-if [[ $1 != $(ls $PWD | grep -o $monstName 2>/dev/null) ]]; then
+if [[ $1 != $(ls $PWD | grep -o $monstFileName 2>/dev/null) ]]; then
  echo "You can't fight that!"
  exit
 elif [ $# -lt 1 ]; then
@@ -14,7 +14,7 @@ elif [ $# -gt 1 ]; then
 fi
 
 
-printf "A $monstName approaches!\n"
+printf "A $monstFileName approaches!\n"
 
 echo "Your current inventory is: "
 cat ~/LARK-Project/game/inventory
@@ -65,13 +65,16 @@ if [ $playerHP -le 0 ]; then
 elif [ $monstHP -le 0 ]; then
   echo "You've slain the $monstName!"
   if [[ $monstLoot ]]; then
-   echo "Looks like the $monstName had some loot!"   
-   mkdir chest
-   touch chest/$monstLoot
-   cd chest
-   additem $monstLoot
-   cd ..
-   rm -r chest  
-fi
-  rm $monstName 2>/dev/null
+    echo "Looks like the $monstName had some loot!"   
+    mkdir chest
+    touch chest/$monstLoot
+    cd chest
+    additem $monstLoot
+    cd ..
+    rm -r chest  
+   fi
+  if [[ $monstUnlock ]]; then
+    cp ~/LARK-Project/.core/modules/paths/$monstUnlock $PWD/$monstUnlock
+  fi
+  rm $monstFileName 2>/dev/null
 fi
