@@ -3,5 +3,5 @@
 
 export monstHP=15 #monster's hit points
 export monstDam=8 #monster's damage
-export monstName='Mimic' #monster's name
+export monstName='mimic' #monster's name
 export monstDesc='I wish it was a chest' #monster's description
