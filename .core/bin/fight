@@ -2,7 +2,7 @@
 
 monstName=$1
 
-if [[ $1 != $(ls $PWD | grep -o $monstName) ]]; then
+if [[ $1 != $(ls $PWD | grep -o $monstName) ]] || [ $# -lt 1] || [ $# -gt 1]; then
  exit
 fi
 
