@@ -6,5 +6,5 @@ monstDam=3 #monster's damage
 monstName='Llama' #monster's name
 monstDesc='A cute creature that Doppy seems to love' #monster's description
 monstLoot='chalk'
-monstScroll='There is some chalk, I can use to mark where I\'ve been. I'll leave some with this scroll for you buddy. 
+monstScroll='There is some chalk, I can use to mark where I\'ve been. I\'ll leave some with this scroll for you buddy. 
 To use it use the "touch" command followed by what you want draw. I just like simple Xs. Be careful though sometimes things you draw can come to life!'
