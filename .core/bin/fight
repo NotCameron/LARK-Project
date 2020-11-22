@@ -76,6 +76,7 @@ elif [ $monstHP -le 0 ]; then
   if [[ $monstScroll != '' ]]; then
     touch Scroll
     echo $monstScroll > Scroll
+    echo "The $monstName seems to have been holding onto a scroll..."
   fi
   rm $monstFileName 2>/dev/null
 fi
