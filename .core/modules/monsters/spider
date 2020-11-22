@@ -5,3 +5,4 @@ monstHP=10 #monster's hit points
 monstDam=1 #monster's damage
 monstName='spider' #monster's name
 monstDesc='' #monster's description
+monstLoot='sword'
