@@ -19,13 +19,13 @@ echo "Your current inventory is: "
 cat ~/LARK-Project/game/inventory
 
 read -p "What weapon are you using? " wepName
-while [ ls ~/LARK-Project/.core/modules/weapons != true ]; do
+while [ (ls ~/LARK-Project/.core/modules/weapons) != true ]; do
  echo "That's not a weapon!"
  read -p "What weapon are you using? " wepName
 done
 
 read -p "What armor are you wearing? " armorName
-while [ grep ~/LARK-Project/.core/modules/armor != true ]; do
+while [ (ls ~/LARK-Project/.core/modules/armor) != true ]; do
  echo "That's not an armor!"
  read -p "What armor are you wearing? " armorName
 done
