@@ -1,0 +1,7 @@
+#!/bin/bash
+#Monster Template
+
+monstHP=70 #monster's hit points
+monstDam=16 #monster's damage
+monstName='Skeleton Mummy' #monster's name
+monstDesc='The creature Doppy feared most, and one of the 3 bosses' #monster's description

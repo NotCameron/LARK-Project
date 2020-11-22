@@ -1,0 +1,6 @@
+#!/bin/bash
+#This is the armor template
+
+armorRate=2 #armor rating
+armorName='overalls' #armor name
+armorDesc='The olive green overalls, they seem durable' #armor description

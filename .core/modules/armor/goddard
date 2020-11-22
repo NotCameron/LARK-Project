@@ -1,0 +1,6 @@
+#!/bin/bash
+#This is the armor template
+
+armorRate=15 #armor rating
+armorName='Goddard' #armor name
+armorDesc='The legendary armour built by an incredible blacksmith' #armor description

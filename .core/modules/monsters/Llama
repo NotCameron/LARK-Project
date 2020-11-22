@@ -1,0 +1,7 @@
+#!/bin/bash
+#Monster Template
+
+monstHP=15 #monster's hit points
+monstDam=3 #monster's damage
+monstName='Llama' #monster's name
+monstDesc='A cute creature that Doppy seems to love' #monster's description
