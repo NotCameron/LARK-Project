@@ -64,5 +64,7 @@ if [ $playerHP -le 0 ]; then
   echo "You wake up just outside the room you were in."
 elif [ $monstHP -le 0 ]; then
   echo "You've slain the $monstName!"
+  if [[ $monstLoot ]]; then
+   additem $monstLoot
   rm $monstName 2>/dev/null
 fi
