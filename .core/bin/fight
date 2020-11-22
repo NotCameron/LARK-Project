@@ -1,15 +1,19 @@
 #!/bin/bash
 
 monstName=$1
+echo $#
 
 if [[ $1 != $(ls $PWD | grep -o $monstName) ]]; then
  echo "You can't fight that!"
  exit
-elif [ $# -lt 1]; then
+elif [ $# -lt 1 ]; then
  echo "You can't fight nothing..."
+ exit
 elif [ $# -gt 1]; then
  echo "You can only fight one thing at a time!"
+ exit
 fi
+
 
 printf "A $monstName approaches!\n"
 
