@@ -60,7 +60,7 @@ done
 if [ $playerHP -le 0 ]; then
   echo "You blackout!"
   cd ..
-  echo "You wake up just outside the room you were in.
+  echo "You wake up just outside the room you were in."
 elif [ $monstHP -le 0 ]; then
   echo "You've slain the $monstName!"
   rm $monstName 2>/dev/null
