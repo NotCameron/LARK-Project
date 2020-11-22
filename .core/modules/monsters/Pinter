@@ -1,7 +1,6 @@
 #!/bin/bash
 #Monster Template
-
-export monstHP=14 #monster's hit points
-export monstDam=2 #monster's damage
-export monstName='Pinter' #monster's name
-export monstDesc='Weak one-eyed bat looking alien' #monster's description
+monstHP=10 #monster's hit points
+monstDam=2 #monster's damage
+monstName='Pinter' #monster's name
+monstDesc='Weak one-eyed bat looking alien' #monster's description
