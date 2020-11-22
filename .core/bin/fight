@@ -65,7 +65,13 @@ if [ $playerHP -le 0 ]; then
 elif [ $monstHP -le 0 ]; then
   echo "You've slain the $monstName!"
   if [[ $monstLoot ]]; then
+   echo "Looks like the $monstName had some loot!"   
+   mkdir chest
+   touch chest/$monstLoot
+   cd chest
    additem $monstLoot
-  fi
+   cd ..
+   rm -r chest  
+fi
   rm $monstName 2>/dev/null
 fi
