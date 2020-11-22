@@ -18,6 +18,11 @@ source ~/LARK-Project/.core/modules/armor/$armorName 2>/dev/null
 source ~/LARK-Project/.core/modules/monsters/$monstName 2>/dev/null
 source ~/LARK-Project/.core/playerStats 2>/dev/null
 
+trueMonstDam=$(($monstDam - $armorRate))
+if [ $trueMonstDam -lt 1 ]; then
+ trueMonstDam=1
+fi
+
 while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
  printf "What will you do? \n a) Attack   b) Use Potion   c) Run\n"
  read action
@@ -25,8 +30,10 @@ while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
   a|A)
    echo "You strike the monster with your $wepName for $wepDam damage!"
    monstHP=$(($monstHP - $wepDam))
-   echo "$monstName strikes you for $monstDam"
-   playerHP=$(($playerHP - $monstDam))
+   if [ $monstHP -gt 0 ]; then
+    echo "$monstName strikes you for $monstDam resisted by $armorRate"
+    playerHP=$(($playerHP - $trueMonstDam))
+   fi
   ;;
   b|B)
    echo "You take a drink from a health potion and feel rejuvenated!"
@@ -43,7 +50,9 @@ while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
 done
 
 if [ $playerHP -le 0 ]; then
-  echo "You've died to $monstName!"
+  echo "You blackout!"
+  cd ..
+  echo "You wake up just outside the room you were in.
 elif [ $monstHP -le 0 ]; then
   echo "You've slain the $monstName!"
   rm $monstName 2>/dev/null
