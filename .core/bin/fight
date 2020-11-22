@@ -1,6 +1,6 @@
 #!/bin/bash
 
-monstName=$(ls $PWD | grep -o $1 | tr '[:lower:]')
+monstName=$(tr '[:lower:]' $1)
 
 if [[ $1 != $(ls $PWD | grep -o $monstName 2>/dev/null) ]]; then
  echo "You can't fight that!"
