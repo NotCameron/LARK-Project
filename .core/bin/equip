@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. ../playerStats
+. ~/LARK-Project/.core/playerStats
 
 item=$(cat /home/$USER/LARK-Project/game/inventory | grep -o $1)
 
@@ -8,9 +8,9 @@ if [ $# -gt 1 ] || [ $# == 0 ]; then
  echo "You can only equip one item at a time!"
 elif [ $1 == $item ]; then
  if ls /home/$USER/LARK-Project/.core/modules/weapons | grep $1 > /dev/null; then
-  weaponPath=/home/$USER/LARK-Project/.core/modules/weapons/$1
+  weaponName=$1
  elif ls /home/$USER/LARK-Project/.core/modules/armor/$1 | grep $1 > /dev/null; then
-  armorPath=/home/$USER/LARK-Project/.core/modules/armor/$1
+  armorName=$1
  else
   echo "The item is not a weapon or armor"
  fi

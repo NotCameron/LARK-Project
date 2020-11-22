@@ -1,0 +1,50 @@
+#!/bin/bash
+
+monstName=$1
+
+if [[ $1 != $(ls $PWD | grep -o $monstName) ]]; then
+ exit
+fi
+
+printf "A $monstName approaches!\n"
+
+echo "Your current inventory is: "
+cat ~/LARK-Project/game/inventory
+read -p "What weapon are you using? " wepName
+read -p "What armor are you wearing? " armorName
+
+source ~/LARK-Project/.core/modules/weapons/$wepName 2>/dev/null
+source ~/LARK-Project/.core/modules/armor/$armorName 2>/dev/null
+source ~/LARK-Project/.core/modules/monsters/$monstName 2>/dev/null
+source ~/LARK-Project/.core/playerStats 2>/dev/null
+
+while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
+ printf "What will you do? \n a) Attack   b) Use Potion   c) Run\n"
+ read action
+ case $action in
+  a|A)
+   echo "You strike the monster with your $wepName for $wepDam damage!"
+   monstHP=$(($monstHP - $wepDam))
+   echo "$monstName strikes you for $monstDam"
+   playerHP=$(($playerHP - $monstDam))
+  ;;
+  b|B)
+   echo "You take a drink from a health potion and feel rejuvenated!"
+   playerHP=10;
+  ;;
+  c|C)
+   echo "You flee from the $monstName!"
+   break
+  ;;
+  *)
+   echo "Invalid Input!"
+  ;;
+ esac
+done
+
+if [ $playerHP -le 0 ]; then
+  echo "You've died to $monstName!"
+elif [ $monstHP -le 0 ]; then
+  echo "You've slain the $monstName!"
+  rm $monstName 2>/dev/null
+fi
