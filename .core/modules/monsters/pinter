@@ -4,5 +4,5 @@ monstHP=10 #monster's hit points
 monstDam=2 #monster's damage
 monstName='Pinter' #monster's name
 monstDesc='Weak one-eyed bat looking alien' #monster's description
-monstLoot='health_potion'
+monstLoot='potion'
 monstScroll='This looks pretty useful. You can now heal during combat'
