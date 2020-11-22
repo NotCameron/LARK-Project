@@ -3,6 +3,8 @@ Welcome new adventurer... to the Dungeon of karL
 
 Beware, there are dangers around every corner so be sure to listen to what the dungeon says.
 
+By navigating here and opening this scroll you utilized the cd and cat commands! These will be incredibly useful in your trek into the dungeon!
+
 To start you off in this treacherous place, type "ls" to observe the things around you, and "cd pathname" to move down any paths you may find.
 "cd .." will return you to an earlier room in the dungeon.
 
