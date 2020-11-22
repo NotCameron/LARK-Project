@@ -32,6 +32,7 @@ if [ $trueMonstDam -lt 1 ]; then
 fi
 
 while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
+ echo "Your current HP is: $playerHP"
  printf "What will you do? \n a) Attack   b) Use Potion   c) Run\n"
  read action
  case $action in
