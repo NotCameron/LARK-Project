@@ -1,0 +1,7 @@
+#!/bin/bash
+#Monster Template
+
+export monstHP=73 #monster's hit points
+export monstDam=9 #monster's damage
+export monstName='Wheezerd' #monster's name
+export monstDesc='You can't defeat me because you're a sub-8 male.' #monster's description
