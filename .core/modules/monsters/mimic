@@ -6,4 +6,4 @@ export monstDam=3 #monster's damage
 export monstName='mimic' #monster's name
 export monstDesc='I wish it was a chest' #monster's description
 monstLoot='overalls'
-monstScroll='I found some nice look armor! Time to change out of my trusty padded overalls'
+monstScroll='I found some nice look armor! I will leave my trusty padded overalls here for you, they are better than nothing!'
