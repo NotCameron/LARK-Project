@@ -3,6 +3,9 @@
 echo "fist" > ~/LARK-Project/game/inventory 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Bush/chest/spiderdfang 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path/LeftPath/spider 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path/.crack/Ircroissant 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path/.crack/Limagun 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path/.crack/goddard 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/llama 2>/dev/null
 rm ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/Scroll 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/RightPath/chest/mimic 2>/dev/null
