@@ -7,4 +7,4 @@ To be able to utilize custom commands, please enter "export PATH=$PATH:~/LARK-Pr
 
 To start the game please type "cd game" then enter, followed by "cat Scroll" and another enter. The game will guide you from there.
 
-The end objective of the game is to kill the final boss.
+The objective of the game is to kill the final boss.
