@@ -1,10 +1,17 @@
 #!/bin/bash
 
-if [$# -gt 1] || [$# -lt 1];then
+if [ $# -gt 1 ] || [ $# -lt 1 ];then
  echo "You need to enter one passphrase"
  exit
 fi
 
-if [ $1 == jazz ]; then
- touch sombrero
+if [ $PWD/manabarrier ]; then
+
+ if [ $1 == jazz ]; then
+  echo "The mana barrier releases an item!"
+  additem sombrero
+ fi
+
+else
+ echo "A ghostly voice says to you that you have entered the wrong pass phrase"
 fi
