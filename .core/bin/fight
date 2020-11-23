@@ -19,16 +19,17 @@ echo "Your current inventory is: "
 cat ~/LARK-Project/game/inventory
 
 read -p "What weapon are you using? " wepName
-while [[ "$(ls ~/LARK-Project/.core/modules/weapons/ | grep -o $wepName)" == $wepName ]]; do
+while [[ "$(ls ~/LARK-Project/.core/modules/weapons/ | grep -o $wepName)" != $wepName ]]; do
  echo "That is not a weapon!"
  read -p "What weapon are you using? " wepName
 done
 
 read -p "What armor are you wearing? " armorName
-while [[ "$(ls ~/LARK-Project/.core/modules/armor/ | grep -o $armorName)" == $armorName ]]; do
+while [[ "$(ls ~/LARK-Project/.core/modules/armor/ | grep -o $armorName)" != $armorName ]]; do
  echo "That is not an armor!"
  read -p "What armor are you wearing? " armorName
 done
+
 source ~/LARK-Project/.core/modules/weapons/$wepName 2>/dev/null
 source ~/LARK-Project/.core/modules/armor/$armorName 2>/dev/null
 source ~/LARK-Project/.core/modules/monsters/$monstFileName 2>/dev/null
