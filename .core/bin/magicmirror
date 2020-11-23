@@ -7,7 +7,7 @@ fi
 
 if [ $PWD/magicmirror ]; then
 
- if [ $(cat $1) == $(cat $2) ]; then
+ if [[ $(cat $1) == $(cat $2) ]]; then
   echo "The magic mirror releases an item!"
   additem f.m.c.
  else
