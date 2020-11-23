@@ -5,12 +5,12 @@ if [ $# -gt 1 ] || [ $# -lt 1 ];then
  exit
 fi
 
-if [ $PWD/manabarrier ]; then
+if [ $(ls $PWD | grep -o manabarrier) == "manabarrier" ]; then
 
  if [ $1 == jazz ]; then
   touch sombrero
+ else
+  echo "A ghostly voice says to you that you have entered the wrong pass phrase"
  fi
 
-else
- echo "A ghostly voice says to you that you have entered the wrong pass phrase"
 fi
