@@ -10,7 +10,6 @@ rm $lark/Path/RightPath/Stairs/Path/Scroll 2>/dev/null
 touch $lark/Path/RightPath/Stairs/Path/RightPath/chest/mimic 2>/dev/null
 rm $lark/Path/RightPath/Stairs/Path/RightPath/chest/Scroll 2>/dev/null
 touch $lark/Path/RightPath/Stairs/Path/LeftPath/chest/limabean 2>/dev/null
-touch $lark/Path/RightPath/Stairs/Path/Path/Path/chest/sombrero 2>/dev/null
 touch $lark/Path/RightPath/Stairs/Path/Path/RightPath/pinter 2>/dev/null
 rm $lark/Path/RightPath/Stairs/Path/Path/RightPath/Scroll 2>/dev/null
 rm -r $lark/Path/RightPath/Stairs/Path/Path/RightPath/Path/Stairs/Path/Path/chest 2>/dev/null
