@@ -2,4 +2,4 @@ The game is not 100% finished.
 
 We need to get around to implementing the accessories (you'll see them as useless items, e.g., the sombrero), adding descriptions to some items when using cat on them, and adding an inspect script for checking what items in your inventory do. As well as future levels so that concepts introduced here will be reinforced.
 
-Additionally, combat is trivial for now, it will be balanced.
+Additionally, combat is trivially easy with the items given for now, it will be balanced.
