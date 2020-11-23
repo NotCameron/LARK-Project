@@ -1,0 +1,18 @@
+#!/bin/bash
+
+if [ $# -gt 2 ] || [ $# -lt 2 ];then
+ echo "You need to enter one source and one copy"
+ exit
+fi
+
+if [ $PWD/magicmirror ]; then
+
+ if [ $(cat $1) == $(cat $2) ]; then
+  echo "The magic mirror releases an item!"
+  additem f.m.c.
+ else
+ echo "Nothing seems to happen..."
+fi
+else
+ echo "There is no magic mirror here!"
+fi
