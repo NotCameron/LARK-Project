@@ -13,5 +13,6 @@ if [ $(ls $PWD | grep -o manabarrier) == "manabarrier" ]; then
  else
   echo "A ghostly voice says to you that you have entered the wrong pass phrase"
  fi
-
+else
+ echo "There is no mana barrier here!"
 fi
