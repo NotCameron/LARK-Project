@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$lark=~/LARK-Project/game/Fissure
+$lark="~/LARK-Project/game/Fissure"
 
 echo "fist" > ~/LARK-Project/game/inventory 2>/dev/null
 touch $lark/Bush/chest/spiderdfang 2>/dev/null
