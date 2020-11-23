@@ -8,9 +8,14 @@ fi
 if [ $(ls $PWD | grep -o manabarrier) == "manabarrier" ]; then
 
  if [ $1 == jazz ]; then
+<<<<<<< HEAD
   touch sombrero
  else
   echo "A ghostly voice says to you that you have entered the wrong pass phrase"
+=======
+  echo "The mana barrier releases an item!"
+  additem sombrero
+>>>>>>> c302c38eb28c0b49bc1644b02f0095ee4127b7be
  fi
 
 fi
