@@ -7,4 +7,4 @@ monstName='Skeleton Mummy' #monster's name
 monstDesc='The creature Doppy feared most, and one of the 3 bosses' #monster's description
 monstLoot='lockpicks'
 monstScroll='This chest here seems to be locked. I have left some lockpicks for you. I have never been too good at lockpicking myself but you can give it a shot!
-To lockpick type "tar -xzf lockedthing". I'll even leave a lock if you want to lock something yourself. Just type tar -dzf to lock something. I do not think there is much use in locking things around here though.'
+To lockpick type "tar -xzf lockedthing". I will even leave a lock if you want to lock something yourself. Just type tar -dzf to lock something. I do not think there is much use in locking things around here though.'
