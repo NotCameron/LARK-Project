@@ -2,7 +2,12 @@
 Hey friend...
 
 I things are getting weird down here right... well...
-Anyways, im gonna teach you a spell, i call it "grep" this spell can be used to look through mana barriers, that fill your mind with stories, and hidden within them are passphrases that let you pass through
-unfortunately "grep" has not been wokring for these voices in my head...
+Anyways, im gonna teach you a spell, i call it "grep" this spell can be used to focus your mind. Mana barriers fill your mind with stories and voices, and hidden within them are passphrases that let you pass through and reach what's on the otherside
+Unfortunately "grep" has not been wokring for these voices in my head...
 To use "grep" type "grep passphrase" and you will find the passphrase.
-hopefully it will help you, catch ya later! - Doppy 
+
+However you need to channel the mana barrier's contents into grep. You can do so by reading it with cat and piping it with |. Piping sends the results of the first action/spell to the second one.
+
+It should look something like this "cat manabarrier | grep passphrase".
+
+Hopefully it will help you, catch ya later! - Doppy 
