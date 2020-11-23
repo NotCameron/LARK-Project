@@ -7,12 +7,17 @@ fi
 
 if [ $PWD/magicmirror ]; then
 
- if [ $(cat $1) == $(cat $2) ]; then
+ if [[ $(cat $1) == $(cat $2) ]]; then
   echo "The magic mirror releases an item!"
+  mkdir chest
+  cd chest
+  touch f.m.c.
   additem f.m.c.
+  cd ..
+  rm -r chest
  else
- echo "Nothing seems to happen..."
-fi
+  echo "Nothing seems to happen..."
+ fi
 else
  echo "There is no magic mirror here!"
 fi
