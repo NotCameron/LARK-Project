@@ -8,7 +8,8 @@ fi
 if [ $PWD/manabarrier ]; then
 
  if [ $1 == jazz ]; then
-  touch sombrero
+  echo "The mana barrier releases an item!"
+  additem sombrero
  fi
 
 else
