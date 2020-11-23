@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [$# -gt 1] || [$# -lt 1];then
+ echo "You need to enter one passphrase"
+ exit
+fi
+
+if [ $1 == jazz ]; then
+ touch sombrero
+fi
