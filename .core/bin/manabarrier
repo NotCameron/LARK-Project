@@ -11,4 +11,6 @@ if [ $PWD/manabarrier ]; then
   touch sombrero
  fi
 
+else
+ echo "A ghostly voice says to you that you have entered the wrong pass phrase"
 fi
