@@ -43,7 +43,7 @@ source ~/LARK-Project/.core/modules/monsters/$monstFileName 2>/dev/null
 source ~/LARK-Project/.core/playerStats 2>/dev/null
 
 playerHP=$(($accHeal + $playerHP))
-wepDam=$(($accDMG + $wepDam))
+wepDam=$(($accDmg + $wepDam))
 armorRate=$(($accArm + $armorRate))
 
 trueMonstDam=$(($monstDam - $armorRate))
