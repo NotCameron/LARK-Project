@@ -42,9 +42,9 @@ source ~/LARK-Project/.core/modules/accessories/$accName 2>/dev/null
 source ~/LARK-Project/.core/modules/monsters/$monstFileName 2>/dev/null
 source ~/LARK-Project/.core/playerStats 2>/dev/null
 
-playerHP=$((accHeal + playerHP))
-wepDam=$((accDMG + wepDam))
-armorRate=$((accArm + armorRate))
+playerHP=$(($accHeal + $playerHP))
+wepDam=$(($accDMG + $wepDam))
+armorRate=$(($accArm + $armorRate))
 
 trueMonstDam=$(($monstDam - $armorRate))
 if [ $trueMonstDam -lt 1 ]; then
