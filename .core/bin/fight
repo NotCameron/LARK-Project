@@ -30,10 +30,21 @@ while [[ "$(ls ~/LARK-Project/.core/modules/armor/ | grep $armorName)" != $armor
  read -p "What armor are you wearing? " armorName
 done
 
+read -p "What accessory are you wearing? " accName
+while [[ "$(ls ~/LARK-Project/.core/modules/accessories/ | grep $accName)" != $accName ]]; do
+ echo "That is not an accessory!"
+ read -p "What accessory are you wearing? " accName
+done
+
 source ~/LARK-Project/.core/modules/weapons/$wepName 2>/dev/null
 source ~/LARK-Project/.core/modules/armor/$armorName 2>/dev/null
+source ~/LARK-Project/.core/modules/accessories/$accName 2>/dev/null
 source ~/LARK-Project/.core/modules/monsters/$monstFileName 2>/dev/null
 source ~/LARK-Project/.core/playerStats 2>/dev/null
+
+playerHP=$((accHeal + playerHP))
+wepDam=$((accDMG + wepDam))
+armorRate=$((accArm + armorRate))
 
 trueMonstDam=$(($monstDam - $armorRate))
 if [ $trueMonstDam -lt 1 ]; then
