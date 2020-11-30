@@ -4,5 +4,5 @@ accHeal=1 #health increase
 accDmg=2 #damage increase
 accArm=1 #armor increase
 accName='necklace' #accesory name
-armorDesc='The olive green overalls, they seem durable' #armor description
+accDesc='The olive green overalls, they seem durable' #armor description
 
