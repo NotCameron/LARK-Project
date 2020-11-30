@@ -1,0 +1,7 @@
+#!/bin/bash
+
+accHeal=0 #health increase
+accDmg=0 #damage increase
+accArm=0 #armor increase
+accName='nothing' #accesory name
+accDesc='...absolutely nothing' #armor description
