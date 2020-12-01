@@ -1,4 +1,4 @@
 echo ""
-echo "There is a chest in the room,
+echo "There is a chest and a scroll in the cave,
 There doesn't seem to be any monsters nearby..."
 echo ""
