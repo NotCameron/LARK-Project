@@ -2,7 +2,7 @@
 #Monster Template
 
 monstHP=8 #monster's hit points
-monstDam=1 #monster's damage
+monstDam=2 #monster's damage
 monstName='spider' #monster's name
 monstDesc='' #monster's description
 monstLoot='sword'
