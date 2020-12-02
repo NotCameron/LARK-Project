@@ -21,7 +21,7 @@ printf "The $monstName approaches!\n"
 echo "Your current inventory is: "
 cat ~/LARK-Project/game/inventory
 
-echo "If you want to use nothing, type the word nothing."
+echo "If you want to use nothing or don't have an item of that class, type the word nothing."
 
 read -p "What weapon are you using? " wepName
 while [ -z "$wepName" ] || [[ "$(ls ~/LARK-Project/.core/modules/weapons/ | grep $wepName 2>/dev/null)" != $wepName ]]; do
