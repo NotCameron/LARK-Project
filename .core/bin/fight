@@ -65,16 +65,16 @@ while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
  read action
  case $action in
   a|A)
-   echo "You strike the monster with your $wepName for $wepDam damage!"
+   printf "\n\nYou strike the monster with your $wepName for $wepDam damage!\n\n"
    monstHP=$(($monstHP - $wepDam))
    if [ $monstHP -gt 0 ]; then
-    echo "$monstName strikes you for $monstDam resisted by $armorRate"
+    echo "$monstName strikes you for $monstDam resisted by $armorRate\n\n"
     playerHP=$(($playerHP - $trueMonstDam))
    fi
   ;;
   b|B)
    if [ $(inventory | grep -o potion) ] && [ $potionCharge -gt 0 ]; then
-   echo "You take a drink from a health potion and feel rejuvenated!"
+   printf "\n\nYou take a drink from a health potion and feel rejuvenated!\n\n"
    playerHP=$playerHPMax;
    let potionCharge--
    
