@@ -29,4 +29,4 @@ echo "A mummy guards the nearby locked chest! It seems to have stolen one of Dop
 rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Crossroads.L3/Tunnel.L3/Hole.L3/Archway.L3/Stairs/StonePath.L4/StonePath.L4/chest/f.m.c. 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Crossroads.L3/Tunnel.L3/Hole.L3/Archway.L3/Stairs/StonePath.L4/StonePath.L4/chest/f.m.c. 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/LeftPath/LeftPath/RightPath/Stairs/Path/Path/BossRoom/queen 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Crossroads.L3/Tunnel.L3/Hole.L3/Archway.L3/Stairs/StonePath.L4/StonePath.L4/Colosseum/.HiddenStairs/wheezerd
+rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Crossroads.L3/Tunnel.L3/Hole.L3/Archway.L3/Stairs/StonePath.L4/StonePath.L4/Colosseum/.HiddenStairs/wheezerd 2>/dev/null
