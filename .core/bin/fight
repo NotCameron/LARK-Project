@@ -99,9 +99,9 @@ elif [ $monstHP -le 0 ]; then
   if [[ $monstLoot ]]; then
     echo "Looks like the $monstName had some loot!"   
     mkdir chest
-    touch chest/"$monstLoot"
+    touch chest/$monstLoot
     cd chest
-    additem "$monstLoot"
+    additem $monstLoot
     cd ..
     rm -r chest  
    fi
