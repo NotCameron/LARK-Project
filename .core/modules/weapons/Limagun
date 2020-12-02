@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wepDam=$[RANDOM%20+40]  #damages within a range from min (1) to defined number max (1+(6-1))
+wepDam=18  #damages within a range from min (1) to defined number max (1+(6-1))
 #export wepDam=6 #damages with a flat number
 wepName='Lima Gun' #weapon name
 weaponDesc='The strongest weapon created by the legendary blacksmith' #weapon's description\
