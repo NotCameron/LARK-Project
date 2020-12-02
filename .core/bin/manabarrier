@@ -5,7 +5,7 @@ if [ $# -gt 1 ] || [ $# -lt 1 ];then
  exit
 fi
 
-if [ $(ls $PWD | grep -o manabarrier) == "manabarrier" ]; then
+if [ $(ls $PWD | grep -o manaBarrier) == "manaBarrier" ]; then
 
  if [ $1 == jazz ]; then
   echo "The mana barrier releases an item!"
