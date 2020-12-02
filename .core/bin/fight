@@ -1,6 +1,7 @@
 #!/bin/bash
 
 monstFileName=$1
+potionCharge=3
 
 if [[ $1 != $(ls $PWD | grep -o $monstFileName 2>/dev/null) ]]; then
  echo "You can't fight that!"
@@ -65,8 +66,14 @@ while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
    fi
   ;;
   b|B)
+   
+   if [ $(inventory | grep potion) && potionCharge > 0 ]; then
    echo "You take a drink from a health potion and feel rejuvenated!"
    playerHP=playerHP + 10;
+   let potionCharge--
+   else
+   echo "You do not have a potion or are out of charges!"
+   fi
   ;;
   c|C)
    echo "You flee from the $monstName!"
