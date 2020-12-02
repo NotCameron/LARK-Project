@@ -1,0 +1,7 @@
+
+#!/bin/bash
+#This is the armor template
+
+armorRate=4 #armor rating
+armorName='flannel' #armor name
+armorDesc='A flannel button down shirt, stylish i guess...' #armor description
