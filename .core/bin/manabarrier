@@ -9,6 +9,7 @@ if [ $(ls $PWD | grep -o manabarrier) == "manabarrier" ]; then
 
  if [ $1 == jazz ]; then
   echo "The mana barrier releases an item!"
+  touch sombrero
   additem sombrero
  elif [ $1 == Retroville ]; then
   echo "The mana barrier releases an item!"
