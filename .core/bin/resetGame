@@ -5,12 +5,9 @@ touch ~/LARK-Project/game/Fissure/Bush.L1/chest/spiderdfang 2>/dev/null
 echo "A spider fang. Looks like it can be used as a dagger." >~/LARK-Project/game/Fissure/Bush.L1/chest/spiderdfang 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/LeftPath.L1/spider 2>/dev/null
 echo "This must be the spider that Doppy wrote about. The sword Doppy left seems to be stuck to the webbing protected by the spider. You'll have to defeat it to get the sword." >~/LARK-Project/game/Fissure/Path.L1/LeftPath.L1/spider 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Ircroissant 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Limagun 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/goddard 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Ircroissant 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Limagun 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/goddard 2>/dev/null
+rm ~/LARK-Project/game/Fissure/Path.L1/.crack/wheezerd 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/.crack/wheezerd 2>/dev/null
+echo "He looks like someone you have been looking for... maybe an old friend..." >~/LARK-Project/game/Fissure/Path.L1/.crack/wheezerd 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/llama 2>/dev/null
 echo "Huh... What's a llama doing down here? It seems chewing on a bag." >~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/llama 2>/dev/null
 rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Scroll 2>/dev/null
@@ -29,4 +26,5 @@ echo "A mummy guards the nearby locked chest! It seems to have stolen one of Dop
 rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Crossroads.L3/Tunnel.L3/Hole.L3/Archway.L3/Stairs/StonePath.L4/StonePath.L4/chest/f.m.c. 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Crossroads.L3/Tunnel.L3/Hole.L3/Archway.L3/Stairs/StonePath.L4/StonePath.L4/chest/f.m.c. 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/LeftPath/LeftPath/RightPath/Stairs/Path/Path/BossRoom/queen 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Crossroads.L3/Tunnel.L3/Hole.L3/Archway.L3/Stairs/StonePath.L4/StonePath.L4/Colosseum/.HiddenStairs/wheezerd 2>/dev/null
+rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Crossroads.L3/Tunnel.L3/Hole.L3/Archway.L3/Stairs/StonePath.L4/StonePath.L4/Colosseum/.HiddenChest/goddard 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Crossroads.L3/Tunnel.L3/Hole.L3/Archway.L3/Stairs/StonePath.L4/StonePath.L4/Colosseum/.HiddenChest/goddard 2>/dev/null
