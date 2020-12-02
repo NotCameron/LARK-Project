@@ -17,11 +17,11 @@ fi
 
 source ~/LARK-Project/.core/modules/monsters/$monstFileName 2>/dev/null
 
-printf "The $monstName approaches!\n"
+printf "\nThe $monstName approaches!\n\n"
 echo "Your current inventory is: "
 cat ~/LARK-Project/game/inventory
 
-echo "If you want to use nothing or don't have an item of that class, type the word nothing."
+printf "If you want to use nothing or don't have an item of that class, type the word nothing.\n\n"
 
 read -p "What weapon are you using? " wepName
 while [ -z "$wepName" ] || [[ "$(ls ~/LARK-Project/.core/modules/weapons/ | grep $wepName 2>/dev/null)" != $wepName ]]; do
