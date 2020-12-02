@@ -1,0 +1,7 @@
+#!/bin/bash
+
+accHeal=1 #health increase
+accDmg=2 #damage increase
+accArm=1 #armor increase
+accName='sombrero' #accesory name
+accDesc='An accessory said to contain the power of the legendary Estevez' #armor description
