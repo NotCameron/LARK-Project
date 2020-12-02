@@ -71,7 +71,7 @@ while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
   b|B)
    if [ $(inventory | grep -o potion) ] && [ $potionCharge -gt 0 ]; then
    echo "You take a drink from a health potion and feel rejuvenated!"
-   playerHP=playerHP + 10;
+   playerHP=$(($playerHP + 10));
    let potionCharge--
    
    else
