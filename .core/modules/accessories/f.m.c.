@@ -1,7 +1,7 @@
 #!/bin/bash
 
-accHeal=1 #health increase
-accDmg=2 #damage increase
-accArm=1 #armor increase
+accHeal=2 #health increase
+accDmg=8 #damage increase
+accArm=0 #armor increase
 accName='f.m.c.' #accesory name
 accDesc='A flying metal chicken accessory. It flies around your head and grants you power. How? You're not sure.' #armor description
