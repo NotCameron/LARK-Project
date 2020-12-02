@@ -26,13 +26,13 @@ done
 
 read -p "What armor are you wearing? " armorName
 while [[ "$(ls ~/LARK-Project/.core/modules/armor/ | grep $armorName)" != $armorName ]]; do
- printf "That is not an armor! If you don't have or want to use armor type \'nothing\'"
+ echo "That is not an armor! If you don't have or want to use armor type the word nothing"
  read -p "What armor are you wearing? " armorName
 done
 
 read -p "What accessory are you wearing? " accName
 while [[ "$(ls ~/LARK-Project/.core/modules/accessories/ | grep $accName)" != $accName ]]; do
- printf "That is not an armor! If you don't have or want to use an accessory type \'nothing\'"
+ printf "That is not an armor! If you don't have or want to use an accessory type the word nothing"
  read -p "What accessory are you wearing? " accName
 done
 
