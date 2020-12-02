@@ -6,7 +6,7 @@ Beware, there are dangers around every corner so be sure to listen to what the d
 By navigating here and opening this scroll you utilized the cd and cat commands! These will be incredibly useful in your trek into the dungeon!
 
 To start you off in this treacherous place, type "ls" to observe the things around you, and "cd pathname" to move down any paths you may find.
-"cd .." will return you to an earlier room in the dungeon. "cat" will allow you to observe some things more closely. Though not everything has information.
+"cd .." will return you to an earlier room in the dungeon. "cat" will allow you to observe some things more closely. Though not everything has information. For instance you could type "cat monster" to closely inspect the monster.
 
 To keep track of the path back to the surface type "pwd"
 
