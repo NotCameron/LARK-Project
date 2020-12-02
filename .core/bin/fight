@@ -68,7 +68,7 @@ while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
    printf "\n\nYou strike the monster with your $wepName for $wepDam damage!\n\n"
    monstHP=$(($monstHP - $wepDam))
    if [ $monstHP -gt 0 ]; then
-    echo "$monstName strikes you for $monstDam resisted by $armorRate\n\n"
+    printf "$monstName strikes you for $monstDam resisted by $armorRate\n\n"
     playerHP=$(($playerHP - $trueMonstDam))
    fi
   ;;
