@@ -1,0 +1,7 @@
+#!/bin/bash
+
+accHeal=2 #health increase
+accDmg=1 #damage increase
+accArm=3 #armor increase
+accName='ULtra Mask' #accesory name
+accDesc='The mask that the Hero wore. It doesnt smell too good but it looks pretty powerful.' #armor description
