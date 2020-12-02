@@ -1,7 +1,7 @@
 #!/bin/bash
 #Monster Template
 
-monstHP=10 #monster's hit points
+monstHP=8 #monster's hit points
 monstDam=1 #monster's damage
 monstName='spider' #monster's name
 monstDesc='' #monster's description
