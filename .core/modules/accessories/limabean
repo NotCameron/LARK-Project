@@ -1,0 +1,7 @@
+#!/bin/bash
+
+accHeal=1 #health increase
+accDmg=2 #damage increase
+accArm=1 #armor increase
+accName='limabean' #accesory name
+accDesc='A singular limabean. A very powerful accessory, or so they say' #armor description
