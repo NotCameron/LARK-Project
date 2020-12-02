@@ -9,9 +9,9 @@ To use "grep" type "grep passphrase" and you will find the passphrase.
 
 However you need to channel the mana barrier's contents into grep. You can do so by reading it with cat and piping it with "|". Piping sends the results of the first action/spell to the second one.
 
-It should look something like this "cat manabarrier | grep passphrase".
+It should look something like this "cat manaBarrier | grep [passphrase]".
 
-To unlock the manabarrier type "manabarrier passphrase"
+To unlock the manabarrier type "manabarrier [passphrase]"
 
 Hopefully it will help you, catch ya later! - Doppy
  
