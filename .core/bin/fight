@@ -54,7 +54,7 @@ fi
 
 while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
  echo "Your current HP is: $playerHP"
- if [ $(inventory | grep -o potion) ] && [ $potionCharge > 0 ]; then
+ if [ $(inventory | grep -o potion) ] && [ $potionCharge -gt 0 ]; then
   echo "Remaining Potion Charges: $potionCharge"
  fi
  printf "What will you do? \n a) Attack   b) Use Potion   c) Run\n"
@@ -69,7 +69,7 @@ while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
    fi
   ;;
   b|B)
-   if [ $(inventory | grep -o potion) ] && [ $potionCharge > 0 ]; then
+   if [ $(inventory | grep -o potion) ] && [ $potionCharge -gt 0 ]; then
    echo "You take a drink from a health potion and feel rejuvenated!"
    playerHP=playerHP + 10;
    let potionCharge--
