@@ -1,22 +1,22 @@
 #!/bin/bash
 
 echo "fist" > ~/LARK-Project/game/inventory 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Bush/chest/spiderdfang 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/LeftPath/spider 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path/.crack/chest/Ircroissant 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path/.crack/chest/Limagun 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path/.crack/chest/goddard 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/.crack/chest/Ircroissant 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/.crack/chest/Limagun 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/.crack/chest/goddard 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/llama 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/Scroll 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/RightPath/chest/mimic 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/RightPath/chest/Scroll 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/LeftPath/chest/limabean 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/Path/RightPath/pinter 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/Path/RightPath/Scroll 2>/dev/null
-rm -r ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/Path/RightPath/Path/Stairs/Path/Path/chest 2>/dev/null
-rm ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/Path/RightPath/Path/Stairs/Path/Path/Scroll 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/Path/RightPath/Path/Stairs/Path/Path/skeletonMummy 2>/dev/null
-touch ~/LARK-Project/game/Fissure/Path/RightPath/Stairs/Path/Path/RightPath/Path/Stairs/Path/LeftPath/LeftPath/RightPath/Stairs/Path/Path/BossRoom/queen 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Bush.L1/chest/spiderdfang 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/LeftPath.L1/spider 2>/dev/null
+rm ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Ircroissant 2>/dev/null
+rm ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Limagun 2>/dev/null
+rm ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/goddard 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Ircroissant 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Limagun 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/goddard 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/llama 2>/dev/null
+rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Scroll 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/DarkCave.L2/chest/mimic 2>/dev/null
+rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/DarkCave.L2/chest/Scroll 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Cave.L2/chest/limabean 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/pinter 2>/dev/null
+rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Scroll 2>/dev/null
+rm -r ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/Path/chest 2>/dev/null
+rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/Path/Scroll 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/Path/skeletonMummy 2>/dev/null
+touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/LeftPath/LeftPath/RightPath/Stairs/Path/Path/BossRoom/queen 2>/dev/null
