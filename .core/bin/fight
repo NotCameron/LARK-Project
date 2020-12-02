@@ -19,19 +19,19 @@ echo "Your current inventory is: "
 cat ~/LARK-Project/game/inventory
 
 read -p "What weapon are you using? " wepName
-while [[ "$(ls ~/LARK-Project/.core/modules/weapons/ | grep $wepName)" != $wepName  && $wepName != "" ]]; do
+while [[ "$(ls ~/LARK-Project/.core/modules/weapons/ | grep $wepName)" != $wepName  && -n "$wepName" ]]; do
  echo "That is not a weapon! If you don't have or want to use a weapon use your fist!"
  read -p "What weapon are you using? " wepName
 done
 
 read -p "What armor are you wearing? " armorName
-while [[ "$(ls ~/LARK-Project/.core/modules/armor/ | grep $armorName)" != $armorName && $armorName != "" ]]; do
+while [[ "$(ls ~/LARK-Project/.core/modules/armor/ | grep $armorName)" != $armorName && -n "$armorName" ]]; do
  echo "That is not an armor! If you don't have or want to use armor type the word nothing"
  read -p "What armor are you wearing? " armorName
 done
 
 read -p "What accessory are you wearing? " accName
-while [[ "$(ls ~/LARK-Project/.core/modules/accessories/ | grep $accName)" != $accName && $accName != "" ]]; do
+while [[ "$(ls ~/LARK-Project/.core/modules/accessories/ | grep $accName)" != $accName && -n "$accName" ]]; do
  printf "That is not an armor! If you don't have or want to use an accessory type the word nothing"
  read -p "What accessory are you wearing? " accName
 done
