@@ -2,7 +2,9 @@
 
 echo "fist" > ~/LARK-Project/game/inventory 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Bush.L1/chest/spiderdfang 2>/dev/null
+echo "A spider fang. Looks like it can be used as a dagger." >~/LARK-Project/game/Fissure/Bush.L1/chest/spiderdfang 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/LeftPath.L1/spider 2>/dev/null
+echo "This must be the spider that Doppy wrote about. The sword Doppy left seems to be stuck to the webbing protected by the spider. You'll have to defeat it to get the sword." >~/LARK-Project/game/Fissure/Path.L1/LeftPath.L1/spider 2>/dev/null
 rm ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Ircroissant 2>/dev/null
 rm ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Limagun 2>/dev/null
 rm ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/goddard 2>/dev/null
@@ -10,13 +12,17 @@ touch ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Ircroissant 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/Limagun 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/.crack/chest/goddard 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/llama 2>/dev/null
+echo "Huh... What's a llama doing down here? It seems chewing on a bag." >~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/llama 2>/dev/null
 rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Scroll 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/DarkCave.L2/chest/mimic 2>/dev/null
+echo "Looks like the chest is alive! Between the aggressive growling and snapping you see some armor and a scroll in it's mouth!" >~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/DarkCave.L2/chest/mimic 2>/dev/null
 rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/DarkCave.L2/chest/Scroll 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Cave.L2/chest/limabean 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/pinter 2>/dev/null
+echo "A flying eye with wings. It seems to speak in a British accent for some reason. It has a potion in it's possession." >~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/pinter 2>/dev/null
 rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Scroll 2>/dev/null
 rm -r ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/Path/chest 2>/dev/null
 rm ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/Path/Scroll 2>/dev/null
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/Path/skeletonMummy 2>/dev/null
+echo "A mummy guards the nearby locked chest! It seems to have stolen one of Doppy's scrolls and has a tiny pouch in it's hands." >~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/Path/skeletonMummy 2>/dev/null 
 touch ~/LARK-Project/game/Fissure/Path.L1/RightPath.L1/Stairs/Ravine.L2/Path.L2/Tunnel.L2/Archway.L2/Stairs/Grotto.L3/LeftPath/LeftPath/RightPath/Stairs/Path/Path/BossRoom/queen 2>/dev/null
