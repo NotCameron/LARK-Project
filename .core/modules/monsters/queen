@@ -6,4 +6,4 @@ export monstDam=10 #monster's damage
 export monstName='Queen Hasabataslapya' #monster's name
 export monstDesc='Bow before the cursed queen. She'll take your soul at 18' #monster's description
 monstLoot='Ircroissant'
-monstScroll=''
+monstScroll='There was a hidden chest in the room, to look for it type "ls -a"'
