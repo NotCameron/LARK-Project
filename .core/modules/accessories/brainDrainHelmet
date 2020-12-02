@@ -1,0 +1,7 @@
+#!/bin/bash
+
+accHeal=1 #health increase
+accDmg=2 #damage increase
+accArm=1 #armor increase
+accName='Brain Drain Helmet' #accesory name
+accDesc='A helmet that drains brains. Hopefully your the brains of your enemies and not yours.' #armor description
