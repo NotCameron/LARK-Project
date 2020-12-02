@@ -5,5 +5,5 @@ export monstHP=42 #monster's hit points
 export monstDam=10 #monster's damage
 export monstName='Queen Hasabataslapya' #monster's name
 export monstDesc='Bow before the cursed queen. She'll take your soul at 18' #monster's description
-monstLoot=''
+monstLoot='Ircroissant'
 monstScroll=''
