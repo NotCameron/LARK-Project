@@ -1,6 +1,6 @@
 # LARK-Project
 This project was created for Intro to Unix and was developed by Cameron Fisher, Noah Coley,and Tiffany Peck.
-The game is called "Dungeon on karL"
+The game is called "Dungeon of karL"
 
 Make sure the game is properly installed in your home directory. (entering pwd and making sure it reads "/home/username/LARK-Project")
 
