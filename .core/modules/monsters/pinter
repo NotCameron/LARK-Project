@@ -5,4 +5,4 @@ monstDam=2 #monster's damage
 monstName='Pinter' #monster's name
 monstDesc='Weak one-eyed bat looking alien' #monster's description
 monstLoot='potion'
-monstScroll='This looks pretty useful. You can now heal during combat'
+monstScroll='This looks pretty useful. You can now heal three times during combat'
