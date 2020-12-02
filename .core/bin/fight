@@ -54,6 +54,9 @@ fi
 
 while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
  echo "Your current HP is: $playerHP"
+ if [ $(inventory | grep -o potion) ] && [ $potionCharge > 0 ]; then
+  echo "Remaining Potion Charges: $potionCharge"
+ fi
  printf "What will you do? \n a) Attack   b) Use Potion   c) Run\n"
  read action
  case $action in
@@ -70,6 +73,7 @@ while [ $monstHP -gt 0 ] && [ $playerHP -gt 0 ]; do
    echo "You take a drink from a health potion and feel rejuvenated!"
    playerHP=playerHP + 10;
    let potionCharge--
+   
    else
    echo "You do not have a potion or are out of charges!"
    fi
