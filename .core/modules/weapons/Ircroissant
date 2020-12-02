@@ -2,5 +2,5 @@
 
 wepDam=50  #damages within a range from min (1) to defined number max (6)
 #export wepDam=6 #damages with a flat number
-wepName='The IR Bread' #weapon name
+wepName='The Infrared Croissant' #weapon name
 weaponDesc='This is the only remnant of your one lost friend Doppy, this loaf was the last thing he had before he lost his sanity, thus gained the power to defeat him' #weapon's description\
